@@ -1,4 +1,4 @@
-# Debian 10 - Source Installation
+# Debian 9 & 10 - Source Installation
 
 The Debian Build system includes support for x86_64 (amd64), arm64 and armhf. Note that the installation and startup scripts assume the use of `systemd`.
 
