@@ -47,5 +47,5 @@ RIPE NCC mengelola paket binary RPM dan saat ini sudah bisa diakses untuk CentOS
 
 6. Jawab `'y'` bahwa sudah ok untuk menginstalasi RPM-nya. Ada kemungkinan anda juga harus menerima CentOS signing key.
 
-7. Setelah menginstalasi software probe ini SSH key pair yang baru akan terbuat, ini bisa digunakan untuk menghubungkan probe ke infrastruktur RIPE Atlas. Public key ini akan digunakan untuk [mendaftarkan probe](/apply/swprobe/).
+7. Setelah menginstalasi software probe ini SSH key pair yang baru akan terbuat, ini bisa digunakan untuk menghubungkan probe ke infrastruktur RIPE Atlas. Public key ini akan digunakan untuk [mendaftarkan probe](https://atlas.ripe.net/apply/swprobe/).
    Public key ini bisa anda temukan disini `/var/atlas-probe/etc/probe_key.pub`.

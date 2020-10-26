@@ -49,5 +49,5 @@ follow these steps:
 
 7. Installing the probe software generates a new SSH key pair to be used to
    connect the probe to the RIPE Atlas infrastructure. You need to register
-   the public key part to in order to [register the probe](/apply/swprobe/).
+   the public key part to in order to [register the probe](https://atlas.ripe.net/apply/swprobe/).
    This can be found in `/var/atlas-probe/etc/probe_key.pub`.
