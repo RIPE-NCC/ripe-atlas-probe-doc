@@ -1,4 +1,4 @@
-# CentOS 7: Установка предварительно собранного ПО из RPM-пакета
+# CentOS 8: Установка предварительно собранного ПО из RPM-пакета
 
 Если вы хотите установить новую виртуальную машину с CentOS 7 для размещения вашего зонда:
 
@@ -11,25 +11,25 @@ RIPE NCC поддерживает бинарные пакеты RPM дял CentO
 1. Скачайте пакет, который добавляет репозиторий с программным обеспечением для зонда:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-2.el7.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos8/noarch/ripe-atlas-repo-1-2.el8.noarch.rpm'
     ```
 
 2. Проверьте хеш-сумму пакета:
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+    sha256sum ripe-atlas-repo-1-2.el8.noarch.rpm
     ```
 
     Хеш должен совпасть с указаннм:
 
     ```
-    c02b6fb7004e86765257c93912403636f67ba59250f8f0904288f60eaad816c3
+    cfb433f54395f5d2ac0d29e806f19f1b854d33f02c256087586e50e49003929c
     ```
 
 3. Установите RPM:
 
     ```
-    yum install ripe-atlas-repo-1-2.el7.noarch.rpm
+    yum install ripe-atlas-repo-1-2.el8.noarch.rpm
     ```
 
     В процессе установки, отвечайте Да (`д`/`y`) на возникающие вопросы.
