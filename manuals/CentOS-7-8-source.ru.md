@@ -4,13 +4,13 @@
 
 1. Для сборки и установки программного обеспечения, пожалуйста используйте 
    пошаговую инструкцию для CentOS, доступную в файле
-   [INSTALL.rst](https://github.com/RIPE-NCC/ripe-atlas-software-probe/blob/master/INSTALL.rst) в репозитории `ripe-atlas-software-probe`
+   [INSTALL.rst](https://github.com/RIPE-NCC/ripe-atlas-software-probe/blob/master/INSTALL.rst) в основном репозитории [`ripe-atlas-software-probe`](https://github.com/RIPE-NCC/ripe-atlas-software-probe/).
 
 2. При установке, программное обеспечение зонда создаёт новую пару ключей SSH
    (публичный и секретный), которые будут использоваться для подключения зонда
    к инфраструктуре RIPE Atlas.
    Вы должны указать **публичный** ключ в процессе 
-   [регистрации зонда](https://atlas.ripe.net/apply/swprobe/).
+   [регистрации зонда](https://atlas.ripe.net/apply/swprobe/)
    в системе RIPE Atlas. 
    Этот ключ после установки программного 
    обеспечения будет находиться в файле `/var/atlas-probe/etc/probe_key.pub`.
