@@ -36,17 +36,17 @@ sigue estos pasos:
     Responda `'y'` a la pregunta de si eso está bien.
 
 
-4. Ahora puede instalar el paquete para la propia probe de software:
+4. Ahora puede instalar el paquete para el propio probe de software:
 
    ```
     yum install atlasswprobe
    ```
 
-5. Responda `'y'` para importar la GPG key con huella digital` AFBE 52EB 213A 90EF C72A 39DD 1B48 2AF7 830D 38D5`
+5. Responda `'y'` para importar la llave GPG con huella digital `AFBE 52EB 213A 90EF C72A 39DD 1B48 2AF7 830D 38D5`
 
 6. Responda `'y'` que está bien instalar el RPM. También es posible que deba aceptar un CentOS signing key.
 
-7. La instalación del software de la probe genera un nuevo par de claves SSH (SSH key pair) que se utilizará para
+7. La instalación del software del probe genera un nuevo par de claves SSH (SSH key pair) que se utilizará para
    conectar el probe a la infraestructura de RIPE Atlas. Debe registrar
-   la clave pública (public key) para [registrar el probe](/apply/swprobe/).
+   la clave pública (public key) para [registrar el probe](https://atlas.ripe.net/apply/swprobe/).
    Esta se puede encontrar en `/var/atlas-probe/etc/probe_key.pub`.
