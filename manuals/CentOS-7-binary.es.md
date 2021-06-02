@@ -17,7 +17,7 @@ RIPE NCC mantiene paquetes RPM binarios y actualmente está disponible para Cent
 2. Verifique el hash del RPM:
 
  ```
- ssha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+ sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
  ```
 
  El hash debe ser:
@@ -35,16 +35,16 @@ RIPE NCC mantiene paquetes RPM binarios y actualmente está disponible para Cent
  Responda `'y'` a la pregunta de si eso está bien.
 
 
-4. Ahora puede instalar el paquete para la propia probe de software:
+4. Ahora puede instalar el paquete para el propio probe de software:
 
  ```
  yum install atlasswprobe
  ```
 
-5. Responda `'y'` para importar el GPG key con la huella digital` afbe 52eb 213a 90ef c72a 39dd 1b48 2af7 830d 38d5`
+5. Responda `'y'` para importar la llave GPG con la huella digital `afbe 52eb 213a 90ef c72a 39dd 1b48 2af7 830d 38d5`
 
 6. Responda `'y'` que está bien para instalar el RPM. Es posible que también deba aceptar un CentOS signing key.
 
-7. La instalación del software de la probe genera un nuevo par de claves SSH (SSH key pair) que se utilizará para
- conectar el probe a la infraestructura de RIPE Atlas. Debe registrar la clave pública (public key) para [registrar el probe](/apply/swprobe/).
+7. La instalación del software del probe genera un nuevo par de claves SSH (SSH key pair) que se utilizará para
+ conectar el probe a la infraestructura de RIPE Atlas. Debe registrar la clave pública (public key) para [registrar el probe](https://atlas.ripe.net/apply/swprobe/).
  Esta se puede encontrar en `/var/atlas-probe/etc/probe_key.pub`.
