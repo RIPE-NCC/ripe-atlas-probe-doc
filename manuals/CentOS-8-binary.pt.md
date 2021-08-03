@@ -2,9 +2,9 @@
 
 Caso queira configurar uma nova máquina virtual usando CentOS para hospedar sua sonda:
 
-* Configure uma nova instalação do CentOS 8 (por exemplo, usando [VirtualBox] (https://www.virtualbox.org/) ou [Parallels] (https://www.parallels.com/)), consulte o [Guia de instalação do CentOS] (https://docs.centos.org/en-US/centos/install-guide/).
+* Configure uma nova instalação do CentOS 8 (por exemplo, usando [VirtualBox](https://www.virtualbox.org/) ou [Parallels](https://www.parallels.com/)), consulte o [Guia de instalação do CentOS](https://docs.centos.org/en-US/centos/install-guide/).
 
-* Ao instalar o CentOS em uma máquina virtual, configure o adaptador de rede virtual no ‘bridge mode' para permitir que o IPv6 funcione. Frequentemente, o padrão é chamado de ’shared', que fornece apenas NAT IPv4.
+* Ao instalar o CentOS em uma máquina virtual, configure o adaptador de rede virtual no `bridge mode` para permitir que o IPv6 funcione. Frequentemente, o padrão é chamado de `shared`, que fornece apenas NAT IPv4.
 
 O RIPE NCC mantém pacotes RPM binários e está atualmente disponível para CentOS 8 (x86_64). Para adicionar o repositório ao seu sistema e instalar o pacote, siga os passos seguintes:
 
@@ -42,7 +42,7 @@ O RIPE NCC mantém pacotes RPM binários e está atualmente disponível para Cen
     yum install atlasswprobe
     ```
 
-5. Responda `'y'` para importar a GPG key com impressão digital` AFBE 52EB 213A 90EF C72A 39DD 1B48 2AF7 830D 38D5`
+5. Responda `'y'` para importar a GPG key com impressão digital `AFBE 52EB 213A 90EF C72A 39DD 1B48 2AF7 830D 38D5`
 
 6. Responda `'y'` que está ok para instalar o RPM. Pode também precisar de aceitar uma CentOS signing key.
 
