@@ -5,9 +5,9 @@ Nel caso in cui desideri configurare una nuova macchina virtuale utilizzando Cen
 
 * Configurare una nuova installazione di CentOS 7 (ad esempio utilizzando [VirtualBox](https://www.virtualbox.org/) o [Parallels](https://www.parallels.com/)), fai riferimento alla [Guida all'installazione di CentOS](https://docs.centos.org/en-US/centos/install-guide/).
 
-* Quando si installa CentOS in una macchina virtuale, configurare la scheda di rete virtuale in "bridge mode" per consentire il funzionamento di IPv6. Spesso il valore predefinito è chiamato "shared" e fornisce solo NAT IPv4.
+* Quando si installa CentOS in una macchina virtuale, configurare la scheda di rete virtuale in `bridge mode` per consentire il funzionamento di IPv6. Spesso il valore predefinito è chiamato `shared` e fornisce solo NAT IPv4.
 
-RIPE NCC mantiene i pacchetti binari RPM e sono(?) attualmente disponibile per CentOS 7 (x86_64). Per aggiungere il repository al tuo sistema e installare il pacchetto, segui questi passaggi:
+RIPE NCC mantiene i pacchetti binari RPM e sono attualmente disponibile per CentOS 7 (x86_64). Per aggiungere il repository al tuo sistema e installare il pacchetto, segui questi passaggi:
 
 1. Scaricare l'RPM che configura il repository per l'RPM della probe software:
 
@@ -33,7 +33,7 @@ RIPE NCC mantiene i pacchetti binari RPM e sono(?) attualmente disponibile per C
  yum install ripe-atlas-repo-1-2.el7.noarch.rpm
  ```
 
- Rispondi "y" alla domanda per confermare l'installazione.
+ Rispondi `'y'` alla domanda per confermare l'installazione.
 
 
 4. Ora puoi installare il pacchetto per la probe software:
