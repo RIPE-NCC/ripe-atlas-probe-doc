@@ -39,7 +39,7 @@
 /etc/init.d/atlas probeid
 ```
 
-测量结果可以通过以下连接查看（请替换 __<ID>__ 为您的探针 ID ）：
+测量结果可以通过以下连接查看（请替换 __\<ID\>__ 为您的探针 ID ）：
 
 ```
 https://atlas.ripe.net/measurements/<ID>/
