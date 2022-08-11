@@ -13,25 +13,25 @@ follow these steps:
 1. Download the RPM that sets up the repository for the software probe RPM:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-2.el7.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-3.el7.noarch.rpm'
     ```
 
 2. Check the hash of the RPM:
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     The hash should be:
 
     ```
-    c02b6fb7004e86765257c93912403636f67ba59250f8f0904288f60eaad816c3
+    91384151b56609a9165492874d2708bede88eeac5f9457e0af5713f0aafe5534
     ```
 
 3. Install the RPM:
 
     ```
-    yum install ripe-atlas-repo-1-2.el7.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     Answer `'y'` to the question of whether that is ok.
