@@ -25,7 +25,7 @@ follow these steps:
     The hash should be:
 
     ```
-    91384151b56609a9165492874d2708bede88eeac5f9457e0af5713f0aafe5534
+    3cbaa92f4a1dc4c74a865a6c14c3cda0badb649ee18d561740a2ba229b3e1e63
     ```
 
 3. Install the RPM:
