@@ -13,25 +13,25 @@ RIPE NCC mengelola paket binary RPM dan saat ini sudah bisa diakses untuk CentOS
 1. Download RPM untuk men-setup repository dari software probe RPM:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-2.el7.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-3.el7.noarch.rpm'
     ```
 
 2. Cek hash RPM dengan cara berikut:
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     Hash yang benar adalah seperti ini:
 
     ```
-    c02b6fb7004e86765257c93912403636f67ba59250f8f0904288f60eaad816c3
+    3cbaa92f4a1dc4c74a865a6c14c3cda0badb649ee18d561740a2ba229b3e1e63
     ```
 
 3. Install RPM-nya:
 
     ```
-    yum install ripe-atlas-repo-1-2.el7.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     Jawab `'y'` pada pertanyaan: is this ok y/N.
