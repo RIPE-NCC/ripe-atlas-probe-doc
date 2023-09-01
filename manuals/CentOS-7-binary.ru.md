@@ -11,25 +11,25 @@ RIPE NCC поддерживает бинарные пакеты RPM для CentO
 1. Скачайте пакет, который добавляет репозиторий с программным обеспечением для зонда:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-2.el7.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-3.el7.noarch.rpm'
     ```
 
 2. Проверьте хеш-сумму пакета:
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     Хеш должен совпасть с указанным:
 
     ```
-    c02b6fb7004e86765257c93912403636f67ba59250f8f0904288f60eaad816c3
+    3cbaa92f4a1dc4c74a865a6c14c3cda0badb649ee18d561740a2ba229b3e1e63
     ```
 
 3. Установите RPM:
 
     ```
-    yum install ripe-atlas-repo-1-2.el7.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     В процессе установки, отвечайте Да (`д`/`y`) на возникающие вопросы.
