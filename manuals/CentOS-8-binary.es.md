@@ -12,25 +12,25 @@ sigue estos pasos:
 1. Descargue el RPM que configura el repositorio para el RPM del probe de software:
 
    ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos8/noarch/ripe-atlas-repo-1-2.el8.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos8/noarch/ripe-atlas-repo-1-3.el8.noarch.rpm'
    ```
 
 2. Verifique el hash del RPM:
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el8.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el8.noarch.rpm
     ```
 
     El hash debe ser:
 
     ```
-    cfb433f54395f5d2ac0d29e806f19f1b854d33f02c256087586e50e49003929c
+    e1e7800666f6978eb2e78dfabcd8aa0fa0ca45d9e97cc861a5e93300a2e46a00
     ```
 
 3. Instale el RPM:
 
    ```
-    yum install ripe-atlas-repo-1-2.el8.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el8.noarch.rpm
    ```
 
     Responda `'y'` a la pregunta de si eso está bien.
