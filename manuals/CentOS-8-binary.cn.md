@@ -11,25 +11,25 @@ RIPE NCC 为 CentOS 8 (x86_64) 提供了 RPM 包。您需要导入软件拓展�
 1. 下载探针 RPM 拓展源文件。
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos8/noarch/ripe-atlas-repo-1-2.el8.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos8/noarch/ripe-atlas-repo-1-3.el8.noarch.rpm'
     ```
 
 2. 检查文件的哈希值
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el8.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el8.noarch.rpm
     ```
 
    此文件的哈希值应为：
 
     ```
-    cfb433f54395f5d2ac0d29e806f19f1b854d33f02c256087586e50e49003929c
+    e1e7800666f6978eb2e78dfabcd8aa0fa0ca45d9e97cc861a5e93300a2e46a00
     ```
 
 3. 安装拓展源:
 
     ```
-    yum install ripe-atlas-repo-1-2.el8.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el8.noarch.rpm
     ```
 
    输入 `'y'` 并回车以进行安装。
