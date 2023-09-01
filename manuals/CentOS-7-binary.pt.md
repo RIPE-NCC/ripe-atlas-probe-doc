@@ -11,25 +11,25 @@ O RIPE NCC mantem pacotes RPM binários e está atualmente disponível para Cent
 1. Faça download do RPM que configura o repositório para o RPM do probe de software:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-2.el7.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-3.el7.noarch.rpm'
     ```
 
 2. Verifique o hash do RPM:
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     O hash deve ser:
 
     ```
-    c02b6fb7004e86765257c93912403636f67ba59250f8f0904288f60eaad816c3
+    3cbaa92f4a1dc4c74a865a6c14c3cda0badb649ee18d561740a2ba229b3e1e63
     ```
 
 3. Instale o RPM:
 
     ```
-    yum install maduro-atlas-repo-1-2.el7.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
     Responda `'y'` à pergunta.
