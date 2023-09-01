@@ -11,25 +11,25 @@ RIPE NCC 为 CentOS 7 (x86_64) 提供了 RPM 包。您需要导入软件拓展�
 1. 下载探针 RPM 拓展源文件。
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-2.el7.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/centos7/noarch/ripe-atlas-repo-1-3.el7.noarch.rpm'
     ```
 
 2. 检查文件的哈希值
 
     ```
-    sha256sum ripe-atlas-repo-1-2.el7.noarch.rpm
+    sha256sum ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
    此文件的哈希值应为：
 
     ```
-    c02b6fb7004e86765257c93912403636f67ba59250f8f0904288f60eaad816c3
+    3cbaa92f4a1dc4c74a865a6c14c3cda0badb649ee18d561740a2ba229b3e1e63
     ```
 
 3. 安装拓展源:
 
     ```
-    yum install ripe-atlas-repo-1-2.el7.noarch.rpm
+    yum install ripe-atlas-repo-1-3.el7.noarch.rpm
     ```
 
    输入 `'y'` 并回车以进行安装。
