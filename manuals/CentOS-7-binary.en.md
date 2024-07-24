@@ -1,5 +1,11 @@
 # CentOS 7: Binary RPM-specific Installation Instructions
 
+IMPORTANT:
+* As of Jun 30, 2024 CentOS 7 has reached EOL.
+
+This instruction remains for historical purposes. Please find the currently maintained
+instruction for installing the software probe for [EL8](RHEL8-binary.en.md) and [EL9](RHEL9-binary.en.md).
+
 In case you want to set up a new Virtual Machine using CentOS 7 in order to host your probe:
 
 * Set up a new installation of CentOS 7 (for example using [VirtualBox](https://www.virtualbox.org/) or [Parallels](https://www.parallels.com/)), please refer to the [CentOS installation guide](https://docs.centos.org/en-US/centos/install-guide/).
