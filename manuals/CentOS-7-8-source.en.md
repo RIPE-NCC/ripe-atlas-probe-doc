@@ -1,5 +1,12 @@
 # CentOS 7 and 8 - Source Installation
 
+IMPORTANT:
+* As of Jun 30, 2024 CentOS 7 has reached EOL.
+* As of May 31, 2024 CentOS Stream 8 has reached EOL.
+
+This instruction remains for historical purposes. Please follow the currently
+maintained [instruction for the software probe](Linux-source.en.md).
+
 The CentOS version supports x86_64 (amd64). Note that the installation and startup scripts assume the use of `systemd`.
 
 1. In order to create and install the software package, please follow the
