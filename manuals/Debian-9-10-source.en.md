@@ -1,5 +1,9 @@
 # Debian 9 & 10 - Source Installation
 
+IMPORTANT:
+* As of Jun 30, 2022 Debian 9 has reached EOL.
+* As of Jun 30, 2024 Debian 10 has reached EOL.
+
 The Debian Build system includes support for x86_64 (amd64), arm64 and armhf. Note that the installation and startup scripts assume the use of `systemd`.
 
 1. In order to create and install the software package, please follow the
