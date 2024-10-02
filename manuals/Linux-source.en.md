@@ -1,7 +1,7 @@
 # Linux - Source Installation
 
-The source installation has been tested only on RHEL8 and RHEL8 on the x86_64 platform. Note that the
-installation and startup scripts assume the use of `systemd`.
+The source installation has been tested only on RHEL8, RHEL9, Debian 11 and Debian 12 on the x86_64
+platform. Note that the installation and startup scripts assume the use of `systemd`.
 
 1. In order to create and install the software package, please follow the instructions as laid
    out in the [INSTALL.rst](https://github.com/RIPE-NCC/ripe-atlas-software-probe/blob/master/INSTALL.rst)

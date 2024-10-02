@@ -14,25 +14,25 @@ To add the repository to your system and install the package, follow these steps
 1. Download the RPM that sets up the repository for the software probe RPM:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/el8/noarch/ripe-atlas-repo-1-4.el8.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/el8/noarch/ripe-atlas-repo-1.5-2.el8.noarch.rpm'
     ```
 
 2. Check the hash of the RPM:
 
     ```
-    sha256sum -b ripe-atlas-repo-1-4.el8.noarch.rpm
+    sha256sum -b ripe-atlas-repo-1.5-2.el8.noarch.rpm
     ```
 
     The hash should be:
 
     ```
-    b9023adebda4cdc6072ee532946a13e3894348a112761b3194c00a97070047c9
+    60d2e6e2cb36c383a1cdfb58a5c3b265aa9771e3d732adedecdd088736e2f05e
     ```
 
 3. Install the RPM (with root privileges):
 
     ```
-    rpm -Uvh ripe-atlas-repo-1-4.el8.noarch.rpm
+    rpm -Uvh ripe-atlas-repo-1.5-2.el8.noarch.rpm
     ```
 
     Answer `'y'` to the question of whether that is ok.
