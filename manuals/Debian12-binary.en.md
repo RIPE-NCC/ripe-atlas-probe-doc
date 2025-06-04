@@ -15,11 +15,11 @@ To add the repository to your system and install the package, follow these steps
     
     * amd64:
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/debian/dists/bookworm/main/binary-amd64/ripe-atlas-repo_1.5-3_all.deb'
+    wget 'https://ftp.ripe.net/ripe/atlas/software-probe/debian/dists/bookworm/main/binary-amd64/ripe-atlas-repo_1.5-3_all.deb'
     ```
     * arm64:
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/debian/dists/bookworm/main/binary-arm64/ripe-atlas-repo_1.5-3_all.deb'
+    wget 'https://ftp.ripe.net/ripe/atlas/software-probe/debian/dists/bookworm/main/binary-arm64/ripe-atlas-repo_1.5-3_all.deb'
     ```
     
 2. Check the hash of the DEB:
