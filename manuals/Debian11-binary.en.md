@@ -2,7 +2,7 @@
 
 If you want to set up a new Virtual Machine using Debian 11 in order to host your probe:
 
-* Set up a new installation of Debian 11 (for example using [VirtualBox](https://www.virtualbox.org/) or [Parallels](https://www.parallels.com/)), please refer to the [Debian 11 installation guide](https://www.debian.org/releases/bullseye/installmanual).
+* Set up a new installation of Debian 11 (for example using [VirtualBox](https://www.virtualbox.org/) or [Parallels](https://www.parallels.com/)), please refer to the [Debian 11 installation guide](https://wiki.debian.org/DebianEdu/Documentation/Bullseye/Installation).
 
 * When installing Debian 11 in a virtual machine, please configure the virtual network adapter in 'bridge mode' to allow IPv6 to work. Often the default is called 'shared' which only provides IPv4 NAT.
 
@@ -14,25 +14,25 @@ To add the repository to your system and install the package, follow these steps
 1. Download the DEB that sets up the repository for the software probe DEB:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/debian/dists/bullseye/main/binary-amd64/ripe-atlas-repo_1.5-3_all.deb'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/debian/dists/bullseye/main/binary-amd64/ripe-atlas-repo_1.5-5_all.deb'
     ```
 
 2. Check the hash of the DEB:
 
     ```
-    sha256sum -b ripe-atlas-repo_1.5-3_all.deb
+    sha256sum -b ripe-atlas-repo_1.5-5_all.deb
     ```
 
     The hash should be:
 
     ```
-    dbbf4e6e24a444ed6c4f67d552567dec91f8981bed6a0396ed30b639669f99af
+    8105140585dc4e1bf5b893832f1d4b6e7c2671b55b578bb792c305996df266a2
     ```
 
 3. Install the DEB (with root privileges):
 
     ```
-    dpkg -i ripe-atlas-repo_1.5-3_all.deb
+    dpkg -i ripe-atlas-repo_1.5-5_all.deb
     ```
 
 4. Now you can install the package for the software probe itself (with root privileges):

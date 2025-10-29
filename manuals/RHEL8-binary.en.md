@@ -14,25 +14,25 @@ To add the repository to your system and install the package, follow these steps
 1. Download the RPM that sets up the repository for the software probe RPM:
 
     ```
-    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/el8/noarch/ripe-atlas-repo-1.5-3.el8.noarch.rpm'
+    curl -O 'https://ftp.ripe.net/ripe/atlas/software-probe/el8/noarch/ripe-atlas-repo-1.5-5.el8.noarch.rpm'
     ```
 
 2. Check the hash of the RPM:
 
     ```
-    sha256sum -b ripe-atlas-repo-1.5-3.el8.noarch.rpm
+    sha256sum -b ripe-atlas-repo-1.5-5.el8.noarch.rpm
     ```
 
     The hash should be:
 
     ```
-    5dc8d35dfc4510a484c5db98244ca6ad246c3c2b7f2fb1b6316f1c79fcf8d5ac
+    c6b5adf011f45c77864ec1639791648c449db89cb840a3a97bbd12d5fcba44a6
     ```
 
 3. Install the RPM (with root privileges):
 
     ```
-    rpm -Uvh ripe-atlas-repo-1.5-3.el8.noarch.rpm
+    rpm -Uvh ripe-atlas-repo-1.5-5.el8.noarch.rpm
     ```
 
     Answer `'y'` to the question of whether that is ok.
@@ -54,7 +54,7 @@ To add the repository to your system and install the package, follow these steps
    register the probe. This process is necessary in order for the probe to function. The public key can be found in
    `/etc/ripe-atlas/probe_key.pub`.
 
-8. For users of the 5080 release software probe or earlier (atlasswprobe), the process is identical.
-    During installation of the 5090 or later release, ripe-atlas-probe will automatically uninstall
+8. For users of the `5080` release software probe or earlier (`atlasswprobe`), the process is identical.
+    During installation of the `5090` or later release, `ripe-atlas-probe` will automatically uninstall
     atlasswprobe and migrate the configuration files and keys. After successful migration the
-    /var/atlas-probe, /home/atlas directories and the atlasmsm & atlas users may be removed.
+    `/var/atlas-probe`, `/home/atlas` directories and the `atlasmsm` & `atlas` users may be removed.
