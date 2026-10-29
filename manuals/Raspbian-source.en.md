@@ -10,4 +10,4 @@ The Debian Build system includes support for x86_64 (amd64), arm64 and armhf. No
 2. Installing the probe software generates a new SSH key pair to be used to
    connect the probe to the RIPE Atlas infrastructure. You need to register
    the public key part to in order to [register the probe](https://atlas.ripe.net/apply/swprobe/).
-   This can be found in `/var/atlas-probe/etc/probe_key.pub`.
+   This can be found in `/etc/ripe-atlas/probe_key.pub`.
